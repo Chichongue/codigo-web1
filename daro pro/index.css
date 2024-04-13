@@ -1,0 +1,50 @@
+/* Estilos para o fundo cor de rosa */
+body {
+    background-color: pink; /* Cor de rosa */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+/* Estilos para o conteúdo branco */
+.content {
+    background-color: white; /* Cor branca */
+    padding: 50px; /* Adiciona um preenchimento ao redor do conteúdo */
+    max-width: 600px; /* Define a largura máxima do conteúdo */
+    text-align: center; /* Centraliza o conteúdo */
+    border-radius: 15px; /* Adiciona cantos arredondados */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+/* Estilos para a imagem */
+img {
+    width: 150px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    float: right; /* Posiciona a imagem à direita do texto */
+    margin-left: 10px; /* Adiciona uma margem à esquerda da imagem para espaçamento */
+    margin-top: 20px; /* Adiciona uma margem acima da imagem para espaçamento 
+.botao-vermelho {
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px; /* Adiciona preenchimento ao redor do texto */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
